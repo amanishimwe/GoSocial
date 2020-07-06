@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="textMultiLine"
+        android:layout_weight="2"
+        android:hint="Enter Text to Share" />
+
+    <Button
+        android:id="@+id/btnshare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE"
+        android:textStyle="bold"
+        android:background="#000"
+        android:textColor="#ffff"
+        android:textSize="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:drawableRight="@android:drawable/ic_menu_share"/>
+
+</LinearLayout>
